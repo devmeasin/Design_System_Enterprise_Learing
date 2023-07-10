@@ -1,0 +1,20 @@
+{
+  "name": "@ds.e/react_ui",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts" : { 
+    "build": "rollup -c",
+    "dev": "rollup -c -w"
+  },
+  "dependencies": {
+    "@ds.e/scss" : "1.0.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.2.14",
+    "react": "^18.2.0",
+    "rollup": "^3.26.2",
+    "rollup-plugin-typescript2": "^0.35.0",
+    "typescript": "^5.1.6"
+  }
+}

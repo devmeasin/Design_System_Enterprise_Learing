@@ -1,0 +1,49 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Program Files (x86)\Yarn\bin\yarn.js build
+
+PATH: 
+  C:\Users\easinwebpro\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\local\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Users\easinwebpro\bin;C:\Program Files\OpenJDK\jdk-11.0.17.8-hotspot\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0;C:\WINDOWS\System32\OpenSSH;C:\Program Files\nodejs;C:\Program Files (x86)\Yarn\bin;C:\Program Files\Git\cmd;C:\Program Files\Cloudflare\Cloudflare WARP;C:\Program Files\scrcpy;C:\Users\easinwebpro\AppData\Local\Programs\Python\Python310\Scripts;C:\Users\easinwebpro\AppData\Local\Programs\Python\Python310;C:\Users\easinwebpro\AppData\Local\Microsoft\WindowsApps;C:\Users\easinwebpro\AppData\Roaming\npm;C:\Users\easinwebpro\AppData\Local\Yarn\bin;C:\Users\easinwebpro\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\easinwebpro\AppData\Local\GitHubDesktop\bin;C:\Program Files\heroku\bin;C:\Users\easinwebpro\AppData\Local\Android\Sdk\platform-tools;C:\src\flutter\bin;C:\Program Files\Git\usr\bin\vendor_perl;C:\Program Files\Git\usr\bin\core_perl
+
+Yarn version: 
+  1.22.19
+
+Node version: 
+  16.17.0
+
+Platform: 
+  win32 x64
+
+Trace: 
+  SyntaxError: C:\Users\easinwebpro\Desktop\Practices\DS.E\packages\react_ui\package.json: Unexpected token , in JSON at position 171
+      at JSON.parse (<anonymous>)
+      at C:\Program Files (x86)\Yarn\lib\cli.js:1629:59
+      at Generator.next (<anonymous>)
+      at step (C:\Program Files (x86)\Yarn\lib\cli.js:310:30)
+      at C:\Program Files (x86)\Yarn\lib\cli.js:321:13
+
+npm manifest: 
+  {
+    "name": "@ds.e/react_ui",
+    "version": "1.0.0",
+    "main": "index.js",
+    "license": "MIT",
+    "scripts" : { 
+      "build": "rollup -c",
+      "dev": "rollup -c -w"
+    }
+  
+    },
+    "devDependencies": {
+      "@types/react": "^18.2.14",
+      "react": "^18.2.0",
+      "rollup": "^3.26.2",
+      "rollup-plugin-typescript2": "^0.35.0",
+      "typescript": "^5.1.6"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
